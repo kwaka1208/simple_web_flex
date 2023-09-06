@@ -15,8 +15,8 @@ ul {
 
 li {
   display: flex;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   border: 1px solid black;
   margin: 1rem;
   list-style: none;
@@ -68,7 +68,7 @@ li {
         justify-content: space-between;
         justify-content: space-around;
     */
-    justify-content: flex-end;
+    justify-content: flex-start;
     /*
         縦方向の並び方
         align-content: stretch;
@@ -82,7 +82,6 @@ li {
   }
   li {
     background-color: red;
-    width: 90%;
   }
 }
 
